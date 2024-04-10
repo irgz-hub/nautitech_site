@@ -149,6 +149,32 @@ main a {
     font-weight: bold;
 }
 
+main h2 {
+    padding: 20px;
+}
+main img.epoxinauti900g {
+    display: block;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main img.techlit {
+    display: block;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+
+
 footer {
     background-color: var(--cor5);
     margin: auto;

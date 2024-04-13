@@ -65,6 +65,10 @@ header h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
 }
 
+header a {
+    text-decoration: none;
+}
+
 header P {
     font-family: var(--fonte-nautitech-thin);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
@@ -236,7 +240,7 @@ footer P {
     padding: 10px;
 }
 
-footer a {
+footer P {
     color: white; /* Define a cor do texto do link como branco */
     text-decoration: none; /* Adiciona sublinhado ao texto do link */
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);

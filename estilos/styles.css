@@ -22,12 +22,13 @@
 */
 
 :root {
-    --cor0:#fcf1f1;
-    --cor1:#f8c9c9;
+    --cor0:rgb(241, 241, 241);
+    --cor1:#e7d6d6;
     --cor2:#d40000;
     --cor3:#A91C1C;
     --cor4:#861818;
     --cor5:#6b1313;
+    --cor6:rgb(94, 94, 94);
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
@@ -88,8 +89,10 @@ div.texto {
     justify-content: center; /* centraliza verticalmente */
     background-color: var(--cor2);
     color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
     text-align: center;
     padding: 10px;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -103,7 +106,7 @@ div.texto {
 .menu-text {
     /* Estilo do texto "MENU" */
     align-items: center;
-    margin: 0; /* Remove margens padrão */
+    margin-top: 1px; /* Remove margens padrão */
 }
 
 
@@ -236,6 +239,14 @@ footer P {
 footer a {
     color: white; /* Define a cor do texto do link como branco */
     text-decoration: none; /* Adiciona sublinhado ao texto do link */
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
+}
+
+footer P#visualtech:hover {
+    color: rgb(255, 255, 255);
+    background-color: var(--cor3);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
+    text-decoration: underline;
 }
 
 

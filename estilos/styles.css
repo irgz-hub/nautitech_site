@@ -240,16 +240,19 @@ footer P {
     padding: 10px;
 }
 
-footer P {
+footer a {
     color: white; /* Define a cor do texto do link como branco */
     text-decoration: none; /* Adiciona sublinhado ao texto do link */
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
 }
 
+footer a:hover {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0);
+}
+
 footer P#visualtech:hover {
     color: rgb(255, 255, 255);
     background-color: var(--cor3);
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
     text-decoration: underline;
 }
 

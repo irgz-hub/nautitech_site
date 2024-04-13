@@ -18,7 +18,81 @@ Grandes telas: acima de 1200px
     
 }*/
 
-@media (min-width: 768px) {
+@media (min-width: 800px) and (max-width: 1537px) {
+    #imagem-inicial {
+        content: url(../imagens/quimicos800.png);
+        margin: 80px;
+    }
+
+    #logonautitech {
+        content: url(../imagens/logo_nautitech500.png);
+        height: 200px;
+        margin-left: 65px;
+    }
+
+    .texto {
+        font-size: 70px;
+        margin-top: -20px;
+    }
+
+    div#imagem-1 {
+        content: url(../imagens/barco_pirambu800.jpg);
+        margin-left: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    div#imagem2 {
+        content: url(../imagens/barco800.jpg);
+        margin-left: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    main img.epoxinauti900g {
+        display: block;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        width: 30%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    main img.techlit {
+        display: block;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        width: 30%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
+
+    .social-box {
+        display: inline-block;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    /* Estilizando as imagens */
+    .social-box img {
+        width: 200px; /* Largura da imagem */
+        height: 200px; /* Altura da imagem */
+        border-radius: 30%; /* Para criar um círculo com a imagem */
+        margin-left: 350px;
+    }
+    
+    /* Estilizando o texto */
+    .social-box p {
+        margin-top: 10px;
+        margin-left: 408px;
+        font-weight: bold;
+    }
+    
+}
+
+@media (min-width: 1537px) {
     #imagem-inicial {
         content: url(../imagens/quimicos800.png);
         margin: 80px;

@@ -234,10 +234,8 @@ footer P {
 }
 
 footer a {
-    a {
-        color: white; /* Define a cor do texto do link como branco */
-        text-decoration: underline; /* Adiciona sublinhado ao texto do link */
-    }    
+    color: white; /* Define a cor do texto do link como branco */
+    text-decoration: none; /* Adiciona sublinhado ao texto do link */
 }
 
 
